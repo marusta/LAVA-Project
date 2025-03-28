@@ -31,7 +31,6 @@ def get_default_model_args(output_dir, labels):
     model_args.show_running_loss = True
     model_args.use_early_stopping = True
     # model_args.wandb_project = "huggingface"
-    
-    model_args.use_multiprocessing = False  
-    model_args.use_cuda = False  
+    # model_args.use_multiprocessing = False  
+    # model_args.use_cuda = False  
     return model_args
